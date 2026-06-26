@@ -1,0 +1,11 @@
+[package]
+name = "nonoya_provider"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = { workspace = true, features = ["json"] }
+scraper = "0.27"
+
+[dev-dependencies]
+tokio = { version = "1.52", features = ["rt-multi-thread", "macros"] }

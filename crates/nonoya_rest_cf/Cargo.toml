@@ -1,0 +1,6 @@
+[package]
+name = "nonoya_rest_cf"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
